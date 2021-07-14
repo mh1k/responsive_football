@@ -8,10 +8,12 @@
 body{
     margin: 0px;
     font-family:'Poppins', sans-serif;
+    
 }
 
 .container{
     margin-left: 180px;
+    margin-right: 200px;
     margin-bottom: 100px;
 }
 
@@ -48,11 +50,13 @@ body{
     grid-template-columns: repeat(2, 1fr);
     column-gap: 102px;
     padding: 135px 0 86px 0;
-    background-color: #2D25A0;
     margin-bottom: 70px;
+    background-color: #2D25A0;
    
     
 }
+
+
 /* ************
 **hovar****** */
 
@@ -111,6 +115,8 @@ body{
 .blog-img img{
     width: 300px;
     height: 200px;
+    
+    
 }
 .blog{
     width: 330px;
@@ -127,11 +133,14 @@ body{
     text-align: left;
 }
 .blogs{
+    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 30px;
     row-gap: 27px;
     width: 300px;
+    
+    
 }
 .title p{
     font-size: 16px;
@@ -161,6 +170,7 @@ body{
 .container-3{
     margin-bottom: 160px;
     margin-left: 180px;
+    margin-right: 200px;
 }
 
 
