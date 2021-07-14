@@ -1,0 +1,129 @@
+/*******************
+*******fonts********/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/***************** 
+*****utilities****/
+body{
+    margin: 0px;
+    font-family:'Poppins', sans-serif;
+}
+
+.container{
+    margin-left: 180px;
+    margin-bottom: 165px;
+}
+
+/****************
+*****heading*****/
+.heading{
+    margin-left: 156px;
+}
+.heading h1{
+    font-size: 64px;
+    font-weight: bold;
+    font-weight: 700;
+    color: #ffffff;
+}
+.heading a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+}
+
+.banner img{
+    width: 556px;
+    height: 456px;
+    
+}
+
+.heading-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 102px;
+    padding: 135px 0 86px 0;
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+}
+/* header{
+    width: 1440px;
+} */
+
+/**************************** 
+***player list section**** */
+
+
+.details{
+    width: 300px;
+    padding: 15px 15px;
+}
+.details img{
+    width: 100%;
+}
+.details h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.details p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    
+}
+
+.players-details{
+    width: 330px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+} 
+
+.players-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 27px;
+    width: 300px;
+}
+
+
+
+
+
+/***********************\
+\********footer*********/
+footer{
+    margin-bottom: 63px;
+}
+
+.logo img{
+  width: 483px;
+  height: 110px; 
+    
+}
+.logo{
+    text-align: center;
+}
+
+.social-link{
+    text-align: center;
+    margin:20px 0px;
+    
+}
+.social-link a{
+    font-size: 16px;
+    margin:0px 14px 0px 0px;
+    text-decoration: none;
+    color: #969BAB;
+    background-color: #d6d9e0;
+    padding: 6px 10px;
+    border-radius: 50%;
+}
+footer p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
